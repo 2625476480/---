@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8f21345a498bdd8ed85d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_custom_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_custom_planner_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_custom_planner_plugin-eef402f5aea7874cf7dc.json",
+					"name" : "nav2_custom_planner_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_custom_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_custom_planner_uninstall-7dee3a15cacfb1cb7561.json",
+					"name" : "nav2_custom_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0dde80b6076bf31e8af2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner",
+		"source" : "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

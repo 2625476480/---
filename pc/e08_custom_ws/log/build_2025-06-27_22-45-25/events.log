@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000267] (nav2_custom_planner) JobQueued: {'identifier': 'nav2_custom_planner', 'dependencies': OrderedDict()}
+[0.000303] (nav2_custom_planner) JobStarted: {'identifier': 'nav2_custom_planner'}
+[0.018683] (nav2_custom_planner) JobProgress: {'identifier': 'nav2_custom_planner', 'progress': 'cmake'}
+[0.020261] (nav2_custom_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_planner', '-DCMAKE_INSTALL_PREFIX=/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner'], 'cwd': '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiaom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiaom'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1293'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1438'), ('BUNDLED_DEBUGPY_PATH', '/home/xiaom/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=94d3f8a19f780b47afff07d4685caede'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43250'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xiaom'), ('JOURNAL_STREAM', '8:24704'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xiaom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xiaom/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/xiaom/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/ubuntu-22:@/tmp/.ICE-unix/1438,unix/ubuntu-22:/tmp/.ICE-unix/1438'), ('INVOCATION_ID', '20dddf94e5434c68a31a369c553beab0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/xiaom/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-75a6b1399482e418.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X2WQ82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d0361577f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=94d3f8a19f780b47afff07d4685caede'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub:/opt/ros/humble')]), 'shell': False}
+[0.098840] (-) TimerEvent: {}
+[0.191743] (nav2_custom_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199568] (-) TimerEvent: {}
+[0.282241] (nav2_custom_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.298399] (nav2_custom_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299620] (-) TimerEvent: {}
+[0.400078] (-) TimerEvent: {}
+[0.413150] (nav2_custom_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.421238] (nav2_custom_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.422254] (nav2_custom_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.422983] (nav2_custom_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.428668] (nav2_custom_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500585] (-) TimerEvent: {}
+[0.560432] (nav2_custom_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.570438] (nav2_custom_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.570881] (nav2_custom_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.571536] (nav2_custom_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.601074] (nav2_custom_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601386] (-) TimerEvent: {}
+[0.702072] (-) TimerEvent: {}
+[0.802495] (-) TimerEvent: {}
+[0.833851] (nav2_custom_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.903144] (-) TimerEvent: {}
+[1.003530] (-) TimerEvent: {}
+[1.033339] (nav2_custom_planner) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[1.103781] (-) TimerEvent: {}
+[1.162853] (nav2_custom_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[1.204108] (-) TimerEvent: {}
+[1.272067] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.286126] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.304731] (-) TimerEvent: {}
+[1.310971] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.349181] (nav2_custom_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.379290] (nav2_custom_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.405279] (-) TimerEvent: {}
+[1.490097] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.498515] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.506257] (-) TimerEvent: {}
+[1.564076] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.606743] (-) TimerEvent: {}
+[1.663200] (nav2_custom_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.668603] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.693513] (nav2_custom_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.700121] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.707793] (-) TimerEvent: {}
+[1.711164] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.731168] (nav2_custom_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.761541] (nav2_custom_planner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.808366] (-) TimerEvent: {}
+[1.880729] (nav2_custom_planner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.881138] (nav2_custom_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.908941] (-) TimerEvent: {}
+[1.998973] (nav2_custom_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.999580] (nav2_custom_planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.009486] (-) TimerEvent: {}
+[2.111027] (-) TimerEvent: {}
+[2.212999] (-) TimerEvent: {}
+[2.314143] (-) TimerEvent: {}
+[2.414817] (-) TimerEvent: {}
+[2.515617] (-) TimerEvent: {}
+[2.616774] (-) TimerEvent: {}
+[2.717270] (-) TimerEvent: {}
+[2.791886] (nav2_custom_planner) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.792077] (nav2_custom_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.817933] (-) TimerEvent: {}
+[2.918443] (-) TimerEvent: {}
+[2.974460] (nav2_custom_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.019623] (-) TimerEvent: {}
+[3.120889] (-) TimerEvent: {}
+[3.149268] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.149815] (nav2_custom_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_planner/include\n'}
+[3.149990] (nav2_custom_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.152376] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.155413] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.155659] (nav2_custom_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.157331] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.161334] (nav2_custom_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.221505] (-) TimerEvent: {}
+[3.322337] (-) TimerEvent: {}
+[3.391440] (nav2_custom_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[3.404334] (nav2_custom_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner\n'}
+[3.423670] (nav2_custom_planner) CommandEnded: {'returncode': 0}
+[3.424809] (-) TimerEvent: {}
+[3.425246] (nav2_custom_planner) JobProgress: {'identifier': 'nav2_custom_planner', 'progress': 'build'}
+[3.425306] (nav2_custom_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner', '--', '-j16', '-l16'], 'cwd': '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiaom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiaom'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1293'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1438'), ('BUNDLED_DEBUGPY_PATH', '/home/xiaom/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=94d3f8a19f780b47afff07d4685caede'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43250'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xiaom'), ('JOURNAL_STREAM', '8:24704'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xiaom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xiaom/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/xiaom/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/ubuntu-22:@/tmp/.ICE-unix/1438,unix/ubuntu-22:/tmp/.ICE-unix/1438'), ('INVOCATION_ID', '20dddf94e5434c68a31a369c553beab0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/xiaom/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-75a6b1399482e418.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X2WQ82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d0361577f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=94d3f8a19f780b47afff07d4685caede'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub:/opt/ros/humble')]), 'shell': False}
+[3.509744] (nav2_custom_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o\x1b[0m\n'}
+[3.524964] (-) TimerEvent: {}
+[3.625608] (-) TimerEvent: {}
+[3.726807] (-) TimerEvent: {}
+[3.827980] (-) TimerEvent: {}
+[3.929384] (-) TimerEvent: {}
+[4.029910] (-) TimerEvent: {}
+[4.131030] (-) TimerEvent: {}
+[4.232409] (-) TimerEvent: {}
+[4.333706] (-) TimerEvent: {}
+[4.434741] (-) TimerEvent: {}
+[4.536017] (-) TimerEvent: {}
+[4.636997] (-) TimerEvent: {}
+[4.738203] (-) TimerEvent: {}
+[4.839606] (-) TimerEvent: {}
+[4.940171] (-) TimerEvent: {}
+[5.040770] (-) TimerEvent: {}
+[5.141531] (-) TimerEvent: {}
+[5.241988] (-) TimerEvent: {}
+[5.342679] (-) TimerEvent: {}
+[5.443714] (-) TimerEvent: {}
+[5.544540] (-) TimerEvent: {}
+[5.645952] (-) TimerEvent: {}
+[5.746819] (-) TimerEvent: {}
+[5.847782] (-) TimerEvent: {}
+[5.948662] (-) TimerEvent: {}
+[6.049748] (-) TimerEvent: {}
+[6.150273] (-) TimerEvent: {}
+[6.250872] (-) TimerEvent: {}
+[6.351795] (-) TimerEvent: {}
+[6.452903] (-) TimerEvent: {}
+[6.553776] (-) TimerEvent: {}
+[6.654531] (-) TimerEvent: {}
+[6.755338] (-) TimerEvent: {}
+[6.856380] (-) TimerEvent: {}
+[6.957236] (-) TimerEvent: {}
+[7.057934] (-) TimerEvent: {}
+[7.158788] (-) TimerEvent: {}
+[7.259540] (-) TimerEvent: {}
+[7.360113] (-) TimerEvent: {}
+[7.460832] (-) TimerEvent: {}
+[7.561472] (-) TimerEvent: {}
+[7.662064] (-) TimerEvent: {}
+[7.762547] (-) TimerEvent: {}
+[7.863585] (-) TimerEvent: {}
+[7.964353] (-) TimerEvent: {}
+[8.065302] (-) TimerEvent: {}
+[8.165836] (-) TimerEvent: {}
+[8.266441] (-) TimerEvent: {}
+[8.367004] (-) TimerEvent: {}
+[8.467944] (-) TimerEvent: {}
+[8.568428] (-) TimerEvent: {}
+[8.669797] (-) TimerEvent: {}
+[8.770809] (-) TimerEvent: {}
+[8.871257] (-) TimerEvent: {}
+[8.972020] (-) TimerEvent: {}
+[9.073062] (-) TimerEvent: {}
+[9.173728] (-) TimerEvent: {}
+[9.274874] (-) TimerEvent: {}
+[9.375743] (-) TimerEvent: {}
+[9.476257] (-) TimerEvent: {}
+[9.577076] (-) TimerEvent: {}
+[9.678035] (-) TimerEvent: {}
+[9.778652] (-) TimerEvent: {}
+[9.879633] (-) TimerEvent: {}
+[9.980285] (-) TimerEvent: {}
+[10.081150] (-) TimerEvent: {}
+[10.181786] (-) TimerEvent: {}
+[10.282508] (-) TimerEvent: {}
+[10.383780] (-) TimerEvent: {}
+[10.484327] (-) TimerEvent: {}
+[10.585050] (-) TimerEvent: {}
+[10.685706] (-) TimerEvent: {}
+[10.778654] (nav2_custom_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_custom_planner_plugin.so\x1b[0m\n'}
+[10.785996] (-) TimerEvent: {}
+[10.887357] (-) TimerEvent: {}
+[10.988088] (-) TimerEvent: {}
+[11.089263] (-) TimerEvent: {}
+[11.189985] (-) TimerEvent: {}
+[11.291264] (-) TimerEvent: {}
+[11.303119] (nav2_custom_planner) StdoutLine: {'line': b'[100%] Built target nav2_custom_planner_plugin\n'}
+[11.322375] (nav2_custom_planner) CommandEnded: {'returncode': 0}
+[11.323612] (nav2_custom_planner) JobProgress: {'identifier': 'nav2_custom_planner', 'progress': 'install'}
+[11.338329] (nav2_custom_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner'], 'cwd': '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'xiaom'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xiaom'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1293'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1438'), ('BUNDLED_DEBUGPY_PATH', '/home/xiaom/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=94d3f8a19f780b47afff07d4685caede'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43250'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xiaom'), ('JOURNAL_STREAM', '8:24704'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xiaom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xiaom/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/xiaom/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/ubuntu-22:@/tmp/.ICE-unix/1438,unix/ubuntu-22:/tmp/.ICE-unix/1438'), ('INVOCATION_ID', '20dddf94e5434c68a31a369c553beab0'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/xiaom/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-75a6b1399482e418.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X2WQ82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6d0361577f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=94d3f8a19f780b47afff07d4685caede'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e07_nav2_bringup:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e06_map_server:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_slam_toolbox_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e05_cartographer_mapping:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e04_mini_car_description:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e03_cmd_vel_tcp_send:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_odom_and_imu_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e02_laser_tcp_recv:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_sub:/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/e01_topic_pub:/opt/ros/humble')]), 'shell': False}
+[11.348100] (nav2_custom_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.348485] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so\n'}
+[11.349721] (nav2_custom_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so" to ""\n'}
+[11.349921] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/include/\n'}
+[11.349989] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/include//nav2_custom_planner\n'}
+[11.350124] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp\n'}
+[11.350629] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml\n'}
+[11.351140] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner\n'}
+[11.351584] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner\n'}
+[11.351969] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh\n'}
+[11.352235] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv\n'}
+[11.352908] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh\n'}
+[11.353159] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv\n'}
+[11.353537] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash\n'}
+[11.353684] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh\n'}
+[11.353865] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh\n'}
+[11.354023] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv\n'}
+[11.354217] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv\n'}
+[11.354527] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner\n'}
+[11.354940] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner\n'}
+[11.355344] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake\n'}
+[11.355627] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake\n'}
+[11.355990] (nav2_custom_planner) StdoutLine: {'line': b'-- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.xml\n'}
+[11.359602] (nav2_custom_planner) CommandEnded: {'returncode': 0}
+[11.391854] (-) TimerEvent: {}
+[11.393349] (nav2_custom_planner) JobEnded: {'identifier': 'nav2_custom_planner', 'rc': 0}
+[11.394459] (-) EventReactorShutdown: {}

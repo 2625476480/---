@@ -1,0 +1,80 @@
+[0.025s] Invoking command in '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_controller -DCMAKE_INSTALL_PREFIX=/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.198s] -- The CXX compiler identification is GNU 11.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.325s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.329s] -- Detecting CXX compiler ABI info
+[0.465s] -- Detecting CXX compiler ABI info - done
+[0.478s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.478s] -- Detecting CXX compile features
+[0.479s] -- Detecting CXX compile features - done
+[0.486s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.683s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.845s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.931s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[1.017s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.031s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.053s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.110s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.213s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.221s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.276s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.366s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.371s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.394s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.398s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.410s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.452s] -- Looking for pthread.h
+[1.560s] -- Looking for pthread.h - found
+[1.560s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.669s] -- Found Threads: TRUE  
+[2.237s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.237s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.404s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.561s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.562s] -- Configured cppcheck include dirs: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_controller/include
+[2.562s] -- Configured cppcheck exclude dirs and/or files: 
+[2.563s] -- Added test 'lint_cmake' to check CMake code style
+[2.565s] -- Added test 'uncrustify' to check C / C++ code style
+[2.565s] -- Configured uncrustify additional arguments: 
+[2.566s] -- Added test 'xmllint' to check XML markup files
+[2.569s] -- Configuring done
+[2.663s] -- Generating done
+[2.675s] -- Build files have been written to: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller
+[2.694s] Invoked command in '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_controller -DCMAKE_INSTALL_PREFIX=/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller
+[2.697s] Invoking command in '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller -- -j16 -l16
+[2.795s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_controller_plugin.dir/src/custom_controller.cpp.o[0m
+[9.968s] [100%] [32m[1mLinking CXX shared library libnav2_custom_controller_plugin.so[0m
+[10.362s] [100%] Built target nav2_custom_controller_plugin
+[10.379s] Invoked command in '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller -- -j16 -l16
+[10.382s] Invoking command in '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller
+[10.393s] -- Install configuration: ""
+[10.394s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/lib/libnav2_custom_controller_plugin.so
+[10.394s] -- Set runtime path of "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/lib/libnav2_custom_controller_plugin.so" to ""
+[10.395s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/include/
+[10.395s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/include//nav2_custom_controller
+[10.395s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/include//nav2_custom_controller/custom_controller.hpp
+[10.395s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/nav2_custom_controller.xml
+[10.396s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/ament_index/resource_index/package_run_dependencies/nav2_custom_controller
+[10.396s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/ament_index/resource_index/parent_prefix_path/nav2_custom_controller
+[10.396s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.sh
+[10.397s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.dsv
+[10.397s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.sh
+[10.397s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.dsv
+[10.398s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.bash
+[10.398s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.sh
+[10.399s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.zsh
+[10.399s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.dsv
+[10.399s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv
+[10.399s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/ament_index/resource_index/packages/nav2_custom_controller
+[10.400s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_controller
+[10.401s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig.cmake
+[10.401s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig-version.cmake
+[10.401s] -- Installing: /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.xml
+[10.405s] Invoked command in '/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/build/nav2_custom_controller

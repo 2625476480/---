@@ -1,0 +1,4 @@
+[01m[K/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_custom_controller::CustomController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_controller/src/custom_controller.cpp:266:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kderivative[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  266 |   double [01;35m[Kderivative[m[K = dt > 0.0 ? (total_error - last_lateral_error_) / dt : 0.0;
+      |          [01;35m[K^~~~~~~~~~[m[K

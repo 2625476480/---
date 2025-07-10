@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e01_topic_pub/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e01_topic_sub/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e02_laser_tcp_recv/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e02_odom_and_imu_tcp_recv/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e03_cmd_vel_tcp_send/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e05_cartographer_mapping/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e05_slam_toolbox_mapping/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e06_map_server/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

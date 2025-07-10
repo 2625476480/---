@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_planner/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/install/nav2_custom_controller/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/nav2_custom_planner/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/nav2_custom_controller/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/install/motion_control_system/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_controller/include/**",
+        "/home/xiaom/ROS2_Humble_LS2K0300/Example/ROS2_Humble_ws/src/e08_custom_ws/src/nav2_custom_planner/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
